@@ -1,0 +1,82 @@
+.header{
+    width: 100%;
+    height: 40em;
+    background:url("img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ne_h{
+    color: #A84396;
+}
+.fa-facebook-f:hover{
+    color: #4267B2 !important;
+}
+.fa-instagram:hover{
+    color: #ee139a !important;
+}
+.fa-twitter:hover{
+    color: #1DA1F2 !important;
+}
+.fa-youtube:hover{
+    color: #FF0000 !important;
+}
+.fa-whatsapp:hover{
+    color: #25D366 !important;
+}
+.center{
+    background: rgb(182,186,186);
+    background: linear-gradient(180deg, rgba(182,186,186,1) 0%, rgba(253,187,45,1) 100%);
+}
+/*
+.cerceve{
+    border: rgb(88, 87, 87) dashed 5px !important;
+}
+*/
+.center_one{
+    width: 100%;
+    height: 100%;
+    background:url("img/center_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mustafa:hover{
+    border:5px solid #e6e5e0 !important;
+    box-shadow: 8px 8px 5px 0px rgb(240, 227, 111) !important;
+    -webkit-box-shadow: 8px 8px 5px 0px rgba(250,226,20,1) !important;
+    -moz-box-shadow: 8px 8px 5px 0px rgb(31, 31, 30) !important;
+}
+.border_img{
+    --color: #8A9B0F; /* the border color */
+    --border: 10px;   /* the border thickness*/
+    --offset: 20px;   /* control the offset*/
+    --gap: 5px;       /* the gap on hover */
+    
+    --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+    --_o: calc(3*var(--offset));
+    padding: 
+      calc(var(--gap) + var(--border))
+      calc(var(--gap) + var(--border) + var(--offset))
+      calc(var(--gap) + var(--border) + var(--offset))
+      calc(var(--gap) + var(--border));
+    background: 
+      linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+      linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+    background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+    background-repeat: no-repeat;
+    filter: grayscale(.4);
+    transition: .5s;
+    cursor: pointer;
+}
+.border_img:hover{
+    background-position: 0px 0px;
+    background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+    filter: grayscale(0);
+}
+.train{
+    width: 100%;
+    height: 20em;
+    background:url(img/train.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 75%;
+}
